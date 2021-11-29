@@ -9,6 +9,7 @@ const createWindow = () => {
 		}
 	});
 	
+	mainWindow.webContents.openDevTools();
 	mainWindow.loadFile('index.html');
 };
 
